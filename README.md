@@ -19,6 +19,11 @@ mvn clean install
 java -jar kafka-producer-wikimedia/target/kafka-producer-wikimedia-0.0.1-SNAPSHOT.jar com.samples.springboot.SpringBootProducerApplication
 ```
 
+# Running `consumer`
+```mysql
+create database wikimedia;
+```
+
 After running `kafka-producer-wikimedia` data should be in the queue
 # Terminal 3
 ```shell
